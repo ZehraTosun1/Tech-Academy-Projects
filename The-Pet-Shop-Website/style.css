@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f1e7;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #6b8e23;
+    color: white;
+    padding: 30px;
+}
+
+nav {
+    background-color: #333333;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+}
+
+section {
+    background-color: white;
+    width: 80%;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.pet-card {
+    background-color: #e8f5d0;
+    margin: 15px auto;
+    padding: 15px;
+    width: 60%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    color: #6b8e23;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>One Page Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>My Favorite Music Video</h1>
+
+        <p>
+            Welcome to my one-page website. This page includes a YouTube music video,
+            CSS styling, and JavaScript animation.
+        </p>
+
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title="YouTube video player"
+            frameborder="0"
+            allowfullscreen>
+        </iframe>
+
+        <br><br>
+
+        <button onclick="startAnimation()">Click for Animation</button>
+
+        <div id="musicNote">♪</div>
+    </div>
+
+    <script>
+        function startAnimation() {
+            var note = document.getElementById("musicNote");
+            note.classList.remove("move");
+            void note.offsetWidth;
+            note.classList.add("move");
+        }
+    </script>
+
+</body>
+</html>

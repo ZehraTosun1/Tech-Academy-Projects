@@ -3,19 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Creating CSS Effects</title>
+
+    <!-- Google Fonts link must be before the CSS file -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <!-- My CSS file -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
         <h1>Creating CSS Effects</h1>
-        <p>This webpage demonstrates different CSS effects.</p>
+        <p>This webpage demonstrates typography, image hover effects, transitions, and animation.</p>
     </header>
+
+    <section class="intro">
+        <h2>CSS Typography</h2>
+        <p>
+            This page uses Google Fonts to improve the typography. The heading uses a decorative font,
+            and the paragraph text uses a clean modern font.
+        </p>
+    </section>
+
+    <section class="image-section">
+        <h2>Image Hover Effects</h2>
+
+        <div class="image-gallery">
+            <img src="https://picsum.photos/400/250?random=1" alt="Sample landscape image">
+            <img src="https://picsum.photos/400/250?random=2" alt="Sample city image">
+            <img src="https://picsum.photos/400/250?random=3" alt="Sample nature image">
+        </div>
+    </section>
 
     <section class="card-section">
         <div class="card">
             <h2>Hover Effect</h2>
-            <p>Move your mouse over this box to see a CSS hover effect.</p>
+            <p>Move your mouse over this box to see it grow.</p>
         </div>
 
         <div class="card">
@@ -27,10 +50,6 @@
             <h2>Transition Effect</h2>
             <p>CSS transitions make changes look smooth.</p>
         </div>
-    </section>
-
-    <section class="button-section">
-        <button>Hover Over Me</button>
     </section>
 
     <section class="animation-section">

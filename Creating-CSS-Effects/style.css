@@ -1,9 +1,10 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #f4f4f9;
     margin: 0;
     padding: 0;
     text-align: center;
+    color: #333333;
 }
 
 header {
@@ -13,7 +14,54 @@ header {
 }
 
 h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
     text-shadow: 2px 2px 5px black;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #4b0082;
+}
+
+.intro {
+    background-color: white;
+    width: 80%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px lightgray;
+}
+
+.image-section {
+    background-color: white;
+    width: 80%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px lightgray;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.image-gallery img {
+    width: 280px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.4s, border-radius 0.4s, box-shadow 0.4s;
+}
+
+/* Image hover effect */
+.image-gallery img:hover {
+    transform: scale(1.1);
+    border-radius: 50%;
+    box-shadow: 0 0 20px #4b0082;
 }
 
 .card-section {
@@ -36,22 +84,6 @@ h1 {
 .card:hover {
     transform: scale(1.1);
     background-color: #e6d6ff;
-}
-
-button {
-    background-color: #4b0082;
-    color: white;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 10px;
-    font-size: 18px;
-    transition: background-color 0.3s, transform 0.3s;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #ff6600;
-    transform: rotate(5deg);
 }
 
 .animation-section {

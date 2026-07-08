@@ -10,7 +10,7 @@ function openLightbox(image) {
     var lightbox = document.getElementById("lightbox");
     var lightboxImg = document.getElementById("lightbox-img");
 
-    lightbox.style.display = "block";
+    lightbox.style.display = "flex";
     lightboxImg.src = image.src;
 }
 

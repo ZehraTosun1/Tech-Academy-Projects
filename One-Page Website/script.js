@@ -1,12 +1,21 @@
+function startAnimation() {
+    var note = document.getElementById("musicNote");
+
+    note.classList.remove("move");
+    void note.offsetWidth;
+    note.classList.add("move");
+}
+
 function openLightbox(image) {
-    const lightbox = document.getElementById("lightbox");
-    const lightboxImg = document.getElementById("lightbox-img");
+    var lightbox = document.getElementById("lightbox");
+    var lightboxImg = document.getElementById("lightbox-img");
 
     lightbox.style.display = "block";
     lightboxImg.src = image.src;
 }
 
 function closeLightbox() {
-    const lightbox = document.getElementById("lightbox");
+    var lightbox = document.getElementById("lightbox");
+
     lightbox.style.display = "none";
 }
